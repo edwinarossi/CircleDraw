@@ -29,6 +29,11 @@ public class Drawing extends Canvas {
         //create Circle object and call on method draw (public method)
         Circle circle=new Circle(p,c, 50); //from the Circle constructor
         circle.draw(g);
+
+        Point p_rectangle=new Point(100, 150);
+        Color c_rectangle=new Color(0x3CBFBF);
+        Rect rect=new Rect(p_rectangle, c_rectangle, 100, 200);
+        rect.draw(g);
     }
 
 }
