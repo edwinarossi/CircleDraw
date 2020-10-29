@@ -1,3 +1,6 @@
+import Shapes.Circle;
+import Shapes.Rect;
+
 import java.awt.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
@@ -34,8 +37,8 @@ public class Drawing extends Canvas {
         //point and colour are from canvas
         Point p=new Point(200,200);
         Color c=new Color(0x992266);// The RGB number comprises three bytes: red, green and blue
-        //create Circle object and call on method draw (public method)
-        Circle circle=new Circle(p,c, 50); //from the Circle constructor
+        //create Shapes.Circle object and call on method draw (public method)
+        Circle circle=new Circle(p,c, 50); //from the Shapes.Circle constructor
         circle.draw(g);
 
         Point p_rectangle=new Point(100, 150);
