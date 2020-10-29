@@ -15,7 +15,7 @@ public class Rect extends Shape {
         this.col = col;
     }
 
-    // A method that draws the object in g
+    // A method + implementation that draws the object in g
     public void draw(Graphics g) {
         g.setColor(col);
         g.fillRect(pos.x, pos.y, width, height);
